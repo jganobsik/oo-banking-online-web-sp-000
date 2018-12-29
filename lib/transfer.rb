@@ -7,9 +7,7 @@ class Transfer
     @status = 'pending'
     if sender.valid? ==  true 
     @sender = sender
-  else 
-    @status = 'rejected'
-  end 
+    
     @receiver = receiver
     end
     
