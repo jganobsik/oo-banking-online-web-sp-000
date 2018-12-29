@@ -8,6 +8,7 @@ class Transfer
     @sender = sender
     @receiver = receiver
     end
+    
       def valid?
          if @sender.valid? == true && 
       @receiver.valid? == true
